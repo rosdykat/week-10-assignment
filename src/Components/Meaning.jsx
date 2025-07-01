@@ -1,3 +1,5 @@
+"use client";
+
 import "animate.css";
 
 const animateCSS = (element, animation, prefix = "animate__") =>
@@ -21,7 +23,9 @@ export default function Meaning() {
     <>
       <h1 class="meaningtitle">Meaning</h1>
       <button class="funbutton">Fun</button>
-      <button class="attbutton">Attention-grabbing</button>
+      <button onClick={animateCSS} class="attbutton">
+        Attention-grabbing
+      </button>
       <button class="simplebutton">Simple</button>
       animateCSS('.meaningtitle', 'shakeX');
       animateCSS('.meaningtitle','shakeY'); animateCSS('.funbutton','tada');
