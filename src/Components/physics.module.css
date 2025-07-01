@@ -1,0 +1,46 @@
+.boxContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.bigBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding: 50px;
+  border: 1px solid black;
+  width: 400px;
+  height: 400px;
+  margin: 10px;
+}
+
+.mediumBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding: 50px;
+  border: 1px solid black;
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+}
+
+.smallBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding: 50px;
+  border: 1px solid black;
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+}
