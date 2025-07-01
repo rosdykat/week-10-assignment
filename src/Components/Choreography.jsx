@@ -2,12 +2,14 @@
 
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 export default function Choreography() {
-  AOS.init();
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <>
-      <script src="bower_components/aos/dist/aos.js"></script>
       <h1 data-aos="fade-up">Choreography</h1>
     </>
   );
