@@ -1,6 +1,8 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import PhysicsComponent from "@/Components/Physics";
+import Meaning from "@/Components/Meaning";
+import Choreography from "@/Components/Choreography";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -24,7 +26,9 @@ export default function RootLayout({ children }) {
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
+        <Meaning />
         <PhysicsComponent />
+        <Choreography />
       </body>
     </html>
   );
