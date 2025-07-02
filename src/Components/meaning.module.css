@@ -1,0 +1,106 @@
+.meaningContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  width: 100vw;
+  height: 100vh;
+}
+
+.mainBox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 1rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  margin-top: 1rem;
+  width: 100%;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+
+  margin-top: 2rem;
+}
+
+.shapes {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 1rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  margin-top: 1rem;
+  width: 100%;
+}
+
+.fun {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  border: 1px solid black;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 100px;
+}
+
+.attention {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  border: 1px solid black;
+  width: 5rem;
+  height: 5rem;
+}
+
+.simple {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  border: 1px solid black;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 100px;
+}
+
+.funExplain {
+  border: 1px solid black;
+  padding: 5rem;
+  margin: 1rem;
+}
+
+.attentionExplain {
+  border: 1px solid black;
+  padding: 5rem;
+  margin: 1rem;
+}
+
+.simpleExplain {
+  border: 1px solid black;
+  padding: 5rem;
+  margin: 1rem;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.explainBoxes {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
