@@ -26,18 +26,21 @@ function FastClick() {
 
 export default function PhysicsComponent() {
   return (
-    <div className={style.boxContainer}>
-      <div className={`${style.bigBox} animate__animated bigBox`}>
-        <button onClick={SlowClick}>Click me!</button>
+    <>
+      <h1 className={style.title}>Physics</h1>
+      <div className={style.boxContainer}>
+        <div className={`${style.bigBox} animate__animated bigBox`}>
+          <button onClick={SlowClick}>Click me!</button>
+        </div>
+        <div className={`${style.mediumBox} animate__animated mediumBox`}>
+          <button onClick={MediumClick}>Click me!</button>
+        </div>
+        <div
+          className={`${style.smallBox} animate__animated animate__bounce animate__fast smallBox`}
+        >
+          <button onClick={FastClick}>Click me!</button>
+        </div>
       </div>
-      <div className={`${style.mediumBox} animate__animated mediumBox`}>
-        <button onClick={MediumClick}>Click me!</button>
-      </div>
-      <div
-        className={`${style.smallBox} animate__animated animate__bounce animate__fast smallBox`}
-      >
-        <button onClick={FastClick}>Click me!</button>
-      </div>
-    </div>
+    </>
   );
 }
