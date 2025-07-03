@@ -1,7 +1,11 @@
 /* colour palette: green D6D85D, cream ECEDB0, tawny EAD8A4, orange F68537 */
 
 body {
-  background-color: ECEDB0;
+  background-color: rgb(236, 237, 176);
+}
+
+.titlechoreo {
+  color: black;
 }
 
 .flexBox {
@@ -12,15 +16,15 @@ body {
 }
 
 .titlefrog {
-  color: F68537;
+  color: orangered;
 }
 
 .text2 {
-  color: F68537;
+  color: orangered;
 }
 
 .frogbiog {
-  color: EAD8A4;
+  color: rgb(67, 112, 87);
 }
 
 .heartclose {
