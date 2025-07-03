@@ -24,12 +24,13 @@ export default function Choreography() {
           className={style.camheart}
           src="/frogphotos/camheartmed.jpg"
           data-aos="flip-up"
-          data-aos-delay="300"
+          data-aos-delay="500"
         />
         <img
           className={style.camclose}
           src="/frogphotos/camclose.jpg"
           data-aos="flip-right"
+          data-aos-delay="1000"
         />
       </div>
       <div className={style.biogdiv}>
@@ -38,9 +39,9 @@ export default function Choreography() {
           src="/frogphotos/camgroup.jpg"
           data-aos="zoom-in-right"
         />
-        <h3 className={style.titlefrog} data-aos="zoom-in-left">
+        <h2 className={style.titlefrog} data-aos="zoom-in-left">
           Frogtography
-        </h3>
+        </h2>
         <p className={style.frogbiog} data-aos="zoom-in-left">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
           egestas mauris risus, viverra sodales leo facilisis ultrices. Nullam
