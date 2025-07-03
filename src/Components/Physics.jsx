@@ -26,7 +26,7 @@ function FastClick() {
 
 export default function PhysicsComponent() {
   return (
-    <>
+    <div className={style.physicsBody}>
       <h1 className={style.title}>Physics</h1>
       <div className={style.boxContainer}>
         <div className={`${style.bigBox} animate__animated bigBox`}>
@@ -41,6 +41,6 @@ export default function PhysicsComponent() {
           <button onClick={FastClick}>Click me!</button>
         </div>
       </div>
-    </>
+    </div>
   );
 }

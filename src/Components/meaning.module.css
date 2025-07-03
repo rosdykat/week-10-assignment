@@ -123,3 +123,13 @@
   justify-content: center;
   /* width: 100%; */
 }
+
+.meaningBody {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+
+  background-image: linear-gradient(rgb(255, 255, 255), rgb(255, 236, 140));
+  width: 100vw;
+}
