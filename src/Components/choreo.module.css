@@ -12,8 +12,17 @@
 .flexBox {
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-evenly;
+  justify-content: space-between;
+}
+
+.biogdiv {
+  display: flex;
+  flex-direction: row;
+}
+
+.enquirediv {
+  position: relative;
+  text-align: center;
 }
 
 .titlefrog {
@@ -46,7 +55,14 @@
   object-fit: contain;
 }
 
-.enquirediv {
-  position: relative;
-  text-align: center;
+.frogparty {
+  width: 50%;
+}
+
+.posefrog {
+  width: 50%;
+}
+
+.partyfrog {
+  width: 50%;
 }
