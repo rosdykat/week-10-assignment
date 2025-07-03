@@ -1,3 +1,7 @@
+import PhysicsComponent from "@/Components/Physics";
+import Meaning from "@/Components/Meaning";
+import Choreography from "@/Components/Choreography";
+
 export default function Home() {
   return (
     <div className="homeContainer">
@@ -79,6 +83,9 @@ export default function Home() {
         </p>
         <button>Buy now</button>
       </div>
+      <Meaning />
+      <PhysicsComponent />
+      <Choreography />
     </div>
   );
 }
