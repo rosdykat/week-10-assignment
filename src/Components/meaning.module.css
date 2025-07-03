@@ -3,9 +3,9 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
-  width: 100%;
-  width: 100vw;
-  height: 100vh;
+  /* width: 100%; */
+  /* width: 100vw; */
+  min-height: 100vh;
 }
 
 .mainBox {
@@ -14,8 +14,8 @@
   align-items: center;
   justify-content: space-evenly;
   padding: 1rem;
-  padding-left: 4rem;
-  padding-right: 4rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
   margin-top: 1rem;
   width: 100%;
 }
@@ -35,8 +35,8 @@
   align-items: center;
   justify-content: space-evenly;
   padding: 1rem;
-  padding-left: 4rem;
-  padding-right: 4rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
   margin-top: 1rem;
   width: 100%;
 }
