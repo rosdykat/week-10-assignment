@@ -6,6 +6,14 @@
   /* width: 100%; */
   /* width: 100vw; */
   min-height: 100vh;
+  border: 1px solid black;
+  box-shadow: 10px 10px rgba(0, 0, 0, 0.53);
+  background-color: white;
+
+  width: 90%;
+  max-width: 600px;
+  padding: 1rem 2rem;
+  margin-top: 1rem;
 }
 
 .mainBox {
@@ -27,6 +35,10 @@
   justify-content: space-evenly;
 
   margin-top: 2rem;
+  width: fit-content;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 20px;
 }
 
 .shapes {
@@ -78,20 +90,26 @@
 
 .funExplain {
   border: 1px solid black;
-  padding: 5rem;
+  padding: 1rem;
   margin: 1rem;
+  background-color: white;
+  box-shadow: 10px 10px rgba(0, 0, 0, 0.53);
 }
 
 .attentionExplain {
   border: 1px solid black;
-  padding: 5rem;
+  padding: 1rem;
   margin: 1rem;
+  background-color: white;
+  box-shadow: 10px 10px rgba(0, 0, 0, 0.53);
 }
 
 .simpleExplain {
   border: 1px solid black;
-  padding: 5rem;
+  padding: 1rem;
   margin: 1rem;
+  background-color: white;
+  box-shadow: 10px 10px rgba(0, 0, 0, 0.53);
 }
 
 .hidden {
@@ -103,4 +121,5 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  /* width: 100%; */
 }
