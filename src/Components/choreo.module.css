@@ -1,7 +1,8 @@
 /* colour palette: green D6D85D, cream ECEDB0, tawny EAD8A4, orange F68537 */
 
-body {
+.choreobody {
   background-color: rgb(236, 237, 176);
+  width: 100%;
 }
 
 .titlechoreo {
