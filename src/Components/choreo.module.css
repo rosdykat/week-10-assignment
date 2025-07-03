@@ -4,6 +4,44 @@ body {
   background-color: ECEDB0;
 }
 
-.camheartclose {
-  height: ;
+.flexBox {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+}
+
+.titlefrog {
+  color: F68537;
+}
+
+.text2 {
+  color: F68537;
+}
+
+.frogbiog {
+  color: EAD8A4;
+}
+
+.heartclose {
+  width: 400px;
+  height: 300px;
+  object-fit: contain;
+}
+
+.camheart {
+  width: 400px;
+  height: 300px;
+  object-fit: contain;
+}
+
+.camclose {
+  width: 400px;
+  height: 300px;
+  object-fit: contain;
+}
+
+.enquirediv {
+  position: relative;
+  text-align: center;
 }
