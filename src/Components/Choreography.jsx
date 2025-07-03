@@ -11,36 +11,36 @@ export default function Choreography() {
   }, []);
   return (
     <>
-      <h1 {style.titlechoreo} data-aos="fade-up">
+      <h1 className={style.titlechoreo} data-aos="fade-up">
         Choreography
       </h1>
-      <div {style.flexbox}>
+      <div className={style.flexbox}>
         <img
-          className="heartclose"
+          className={style.heartclose}
           src="/frogphotos/heartclose.jpg"
           data-aos="flip-left"
         />
         <img
-          className="camheart"
+          className={style.camheart}
           src="/frogphotos/camheartmed.jpg"
           data-aos="flip-up"
         />
         <img
-          className="camclose"
+          className={style.camclose}
           src="/frogphotos/camclose.jpg"
           data-aos="flip-right"
         />
       </div>
-      <div className="biogdiv">
+      <div className={style.biogdiv}>
         <img
-          className="frogparty"
+          className={style.frogparty}
           src="/frogphotos/camgroup.jpg"
           data-aos="zoom-in-right"
         />
-        <h3 className="titlefrog" data-aos="zoom-in-left">
+        <h3 className={style.titlefrog} data-aos="zoom-in-left">
           Frogtography
         </h3>
-        <p className="frogbiog" data-aos="zoom-in-left">
+        <p className={style.frogbiog} data-aos="zoom-in-left">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
           egestas mauris risus, viverra sodales leo facilisis ultrices. Nullam
           dui sapien, porta a volutpat sit amet, cursus sed nibh. Proin ac velit
@@ -50,28 +50,28 @@ export default function Choreography() {
           enim vestibulum id. In at venenatis libero.
         </p>
       </div>
-      <div className="gallerydiv">
+      <div className={style.gallerydiv}>
         <img
-          className="posefrog"
+          className={style.posefrog}
           src="/frogphotos/posingfrog.jpg"
           data-aos="fade-up-left"
         />
         <img
-          className="partyfrog"
+          className={style.partyfrog}
           src="/frogphotos/partyfrogs.jpg"
           data-aos="fade-up-right"
         />
       </div>
-      <p className="text2">
+      <p className={style.text2}>
         Proin eget magna maximus leo euismod ornare quis quis arcu. Nam mi nisi,
         malesuada vel pulvinar in, viverra convallis urna. Morbi metus dolor,
         eleifend ac scelerisque sit amet, ullamcorper eget tellus. Cras sodales
         sodales eros nec aliquam. Integer nec lorem pulvinar, sodales felis at,
         varius nisi.
       </p>
-      <div className="enquirediv">
-        <img className="prayfrog" src="/frogphotos/prayingfrog.jpg" />
-        <button className="frogbutton" data-aos="flip-up">
+      <div className={style.enquirediv}>
+        <img className={style.prayfrog} src="/frogphotos/prayingfrog.jpg" />
+        <button className={style.frogbutton} data-aos="flip-up">
           Enquire
         </button>
       </div>
