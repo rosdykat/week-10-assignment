@@ -62,14 +62,14 @@ export default function Choreography() {
           data-aos="fade-up-right"
         />
       </div>
-      <p className={style.text2}>
-        Proin eget magna maximus leo euismod ornare quis quis arcu. Nam mi nisi,
-        malesuada vel pulvinar in, viverra convallis urna. Morbi metus dolor,
-        eleifend ac scelerisque sit amet, ullamcorper eget tellus. Cras sodales
-        sodales eros nec aliquam. Integer nec lorem pulvinar, sodales felis at,
-        varius nisi.
-      </p>
       <div className={style.enquirediv}>
+        <p className={style.text2}>
+          Proin eget magna maximus leo euismod ornare quis quis arcu. Nam mi
+          nisi, malesuada vel pulvinar in, viverra convallis urna. Morbi metus
+          dolor, eleifend ac scelerisque sit amet, ullamcorper eget tellus. Cras
+          sodales sodales eros nec aliquam. Integer nec lorem pulvinar, sodales
+          felis at, varius nisi.
+        </p>
         <img className={style.prayfrog} src="/frogphotos/prayingfrog.jpg" />
         <button className={style.frogbutton} data-aos="flip-up">
           Enquire
