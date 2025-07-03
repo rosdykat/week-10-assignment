@@ -10,7 +10,7 @@ export default function Choreography() {
     AOS.init();
   }, []);
   return (
-    <>
+    <div className={style.choreobody}>
       <h1 className={style.titlechoreo} data-aos="fade-up">
         Choreography
       </h1>
@@ -24,6 +24,7 @@ export default function Choreography() {
           className={style.camheart}
           src="/frogphotos/camheartmed.jpg"
           data-aos="flip-up"
+          data-aos-delay="300"
         />
         <img
           className={style.camclose}
@@ -75,6 +76,6 @@ export default function Choreography() {
           Enquire
         </button>
       </div>
-    </>
+    </div>
   );
 }
