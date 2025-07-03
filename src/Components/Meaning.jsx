@@ -86,19 +86,19 @@ export default function Meaning() {
             className={`${style.funExplain} ${style.hidden} animate__animated`}
           >
             <h1>Fun</h1>
-            <p>Explain here</p>
+            <img src="/Images/funclick.png" height="300" width="auto" />
           </div>
           <div
             className={`${style.attentionExplain} ${style.hidden} animate__animated`}
           >
             <h1>Attention</h1>
-            <p>Explain here</p>
+            <img src="/Images/attentionClick.png" height="300" width="auto" />
           </div>
           <div
             className={`${style.simpleExplain} ${style.hidden} animate__animated`}
           >
             <h1>Simple</h1>
-            <p>Explain here</p>
+            <img src="/Images/simpleclick.png" height="300" width="auto" />
           </div>
         </div>
       </div>
