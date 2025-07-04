@@ -1,6 +1,7 @@
 "use client";
 import "animate.css";
 import style from "@/Components/meaning.module.css";
+import { useEffect, useState } from "react";
 
 function FunClick() {
   const element = document.querySelector(`.${style.fun}`);
@@ -56,7 +57,28 @@ function SimpleClick() {
   }
 }
 
+function addSpin() {
+  const element = document.querySelector(".loading");
+  if (!element) return;
+  element.classList.remove("animate__rotateOut");
+  void element.offsetWidth;
+  element.classList.add("animate__rotateOut");
+}
+
 export default function Meaning() {
+  const [spinning, setSpinning] = useState(false);
+
+  useEffect(() => {
+    if (!spinning) return;
+
+    const interval = setInterval(addSpin, 2000);
+    return () => clearInterval(interval);
+  }, [spinning]);
+
+  function loadSwitch() {
+    setSpinning((prev) => !prev);
+  }
+
   return (
     <div className={style.meaningBody}>
       <h1 className={style.title}>Meaning</h1>
@@ -101,6 +123,13 @@ export default function Meaning() {
             <img src="/Images/simpleclick.png" height="300" width="auto" />
           </div>
         </div>
+        <img
+          className={`${style.loading} loading animate__animated`}
+          src="/Images/loading2.png"
+          height="50"
+          width="auto"
+        />
+        <button onClick={loadSwitch}>Load!</button>
       </div>
     </div>
   );

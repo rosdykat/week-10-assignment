@@ -59,10 +59,14 @@
   align-items: center;
   justify-content: center;
 
-  border: 1px solid black;
+  /* border: 1px solid black; */
   width: 5rem;
   height: 5rem;
   border-radius: 100px;
+  background-color: red;
+  color: white;
+  font-size: large;
+  font-weight: bold;
 }
 
 .attention {
@@ -71,9 +75,14 @@
   align-items: center;
   justify-content: center;
 
-  border: 1px solid black;
+  /* border: 1px solid black; */
   width: 5rem;
   height: 5rem;
+  background-color: rgb(84, 164, 31);
+  color: white;
+  font-size: large;
+  font-weight: bold;
+  padding: 0.2rem;
 }
 
 .simple {
@@ -82,10 +91,14 @@
   align-items: center;
   justify-content: center;
 
-  border: 1px solid black;
+  /* border: 1px solid black; */
   width: 5rem;
   height: 5rem;
   border-radius: 100px;
+  background-color: rgb(71, 36, 186);
+  color: white;
+  font-size: large;
+  font-weight: bold;
 }
 
 .funExplain {
@@ -132,4 +145,8 @@
 
   background-image: linear-gradient(rgb(255, 255, 255), rgb(255, 236, 140));
   width: 100vw;
+}
+
+.loading {
+  font-size: large;
 }
