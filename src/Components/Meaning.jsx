@@ -58,7 +58,7 @@ function SimpleClick() {
 
 export default function Meaning() {
   return (
-    <>
+    <div className={style.meaningBody}>
       <h1 className={style.title}>Meaning</h1>
       <div className={style.meaningContainer}>
         <div className={style.shapes}>
@@ -102,6 +102,6 @@ export default function Meaning() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
